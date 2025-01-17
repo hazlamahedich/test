@@ -1,0 +1,44 @@
+# config.yaml
+global_instructions:
+  tone: "Professional and engaging"
+  style: "Concise and informative"
+  additional_context: "Always include a call to action and use current trends"
+
+platform_instructions:
+  twitter:
+    specific_instructions: "Use trending hashtags, keep it punchy and concise"
+    max_length: 280
+    tone: "Conversational and witty"
+
+  facebook:
+    specific_instructions: "Create a storytelling approach, use emojis, and encourage engagement"
+    max_length: 5000
+    tone: "Friendly and conversational"
+
+  linkedin:
+    specific_instructions: "Maintain a professional tone, focus on industry insights and professional value"
+    max_length: 3000
+    tone: "Expert and authoritative"
+
+  instagram:
+    specific_instructions: "Use vibrant language, include relevant hashtags, create visually inspiring content"
+    max_length: 2200
+    tone: "Trendy and inspirational"
+
+  youtube:
+    specific_instructions: "Create a structured script with a clear narrative arc, include educational elements"
+    tone: "Informative and engaging"
+
+  youtube_shorts:
+    specific_instructions: "Quick, attention-grabbing content with a clear hook in the first 3 seconds"
+    max_length: 60
+    tone: "Energetic and concise"
+
+  tiktok:
+    specific_instructions: "Follow current trends, use popular sound bites, create visually dynamic content"
+    tone: "Fun and trendy"
+
+  facebook_reels:
+    specific_instructions: "Quick, entertaining content with a clear message and potential viral element"
+    max_length: 60
+    tone: "Entertaining and shareable"

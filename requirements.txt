@@ -1,0 +1,26 @@
+# Core Libraries
+python-telegram-bot==20.7
+pydantic==2.6.1
+openai==1.12.0
+python-dotenv==1.0.0
+
+# Web Interaction
+requests==2.31.0
+aiohttp==3.9.3
+beautifulsoup4==4.12.3
+googlesearch-python==1.1.0
+
+# Image Processing
+Pillow==10.2.0
+
+# Configuration and Parsing
+PyYAML==6.0.1
+
+# Optional but Recommended
+logging==0.5.1.2
+uuid==1.30
+
+# Development and Testing
+pytest==7.4.4
+black==24.1.1
+flake8==7.0.0
